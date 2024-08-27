@@ -1,10 +1,14 @@
 import "./App.css";
+import HomePage from "./component/homepage";
 import NavigationBar from "./component/navbar";
 
 function App() {
   return (
     <div className="App">
-      <NavigationBar />
+      <div className="wrapperContainner">
+        <NavigationBar />
+        <HomePage />
+      </div>
     </div>
   );
 }

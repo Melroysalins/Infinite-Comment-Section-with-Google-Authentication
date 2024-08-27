@@ -1,0 +1,7 @@
+.CommentcountContainner p{
+    color: #202020;
+    cursor: pointer;
+    font-weight: 600;
+    font-family: sans-serif;
+    letter-spacing: 1px;
+}
